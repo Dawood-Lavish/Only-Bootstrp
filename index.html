@@ -5,47 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://clipground.com/images/bootstrap-icon-png-8.png" type="image/x-icon">
     <title>The Docs</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<style>
-   .navbar-brand img{
-        width: 100%;
-        max-width: 70px;
-    }
-</style>
 <body>
-    
+  
+    <div class="loader">
+      <div class="center">
+        <div class="spinner-grow text-light" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <div id="home">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: white
+        <div class="container-fluid" style="background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);        
         ;">
-          <a class="navbar-brand" href="#"><img src="./icon.png
-            " alt=""></a>
+          <a class="navbar-brand" href="#"><img src="./icon-removebg-preview.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="./importence.html">Importence</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Association</a>
+                <a class="nav-link" href="./Associations.html">Associations</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Your Exprience
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Fresher</a></li>
-                  <li><a class="dropdown-item" href="#">1 Year</a></li>
-                  <li><a class="dropdown-item" href="#"> More than 1 Year</a></li>
-                  <li><a class="dropdown-item" href="#">Exprienced</a></li>
-                </ul>
+               <li class="nav-item">
+                <a class="nav-link" href="./Exprience.html">Exprience</a>
               </li>
             </ul>
           </div>
@@ -54,10 +50,12 @@
 
 
         <!-- slider -->
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="contanier-0" style="padding: 10px;">
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./pexels-vidal-balielo-jr-3376790.jpg" class="img-fluid" alt="...">
+                <img src="./pexels-vidal-balielo-jr-3376790.jpg" class="img-fluid" alt="Error 420">
               </div>
               <div class="carousel-item">
                 <img src="./pexels-karolina-grabowska-4386489.jpg" class="img-fluid" alt="...">
@@ -65,13 +63,218 @@
               <div class="carousel-item">
                 <img src="./pexels-chokniti-khongchum-2280568.jpg" class="img-fluid" alt="...">
               </div>
+              <div class="carousel-item">
+                <img src="./images/pexels-rdne-stock-project-6129207.jpg" class="img-fluid" alt="...">
+              </div>
             </div>
           </div>
-
-
+          
+        </div>
+          
           <!-- cards -->
           
 
+<div class="contaner-2">
+     <div class="card-1">
+      <div class="card" data-aos="fade-up">
+        <div class="img-hover-zoom">
+          <img src="./back-1.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Dr.Hasham</h5>
+          <p class="card-text"> <span id="b0">Heart surgen</span> This commitment to holistic care extends to a collaborative approach, working closely with a multidisciplinary team of healthcare professionals to provide comprehensive cardiovascular care.</p>
+          <button type="button" class="btn btn-outline-info">Veiw More</button>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up">
+        <div class="img-hover-zoom">
+          <img src="./pexels-pixabay-356040.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Dr.Usman</h5>
+          <p class="card-text"> <span  id="b0">Heart surgen</span> This commitment to holistic care extends to a collaborative approach, working closely with a multidisciplinary team of healthcare professionals to provide comprehensive cardiovascular care.</p>
+          <button type="button" class="btn btn-outline-info">Veiw More</button>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up">
+        <div class="img-hover-zoom">
+          <img src="./images/pexels-amornthep-srina-1164531.jpg
+          " class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Dr.Abid</h5>
+          <p class="card-text"> <span  id="b0">Heart surgen</span> This commitment to holistic care extends to a collaborative approach, working closely with a multidisciplinary team of healthcare professionals to provide comprehensive cardiovascular care.</p>
+          <button type="button" class="btn btn-outline-info">Veiw More</button>
+        </div>
+      </div>
+     </div>
+  
+</div>
+
+
+<!-- card-2 -->
+<div class="contaner-2">
+  <div class="card-1">
+   <div class="card" data-aos="fade-up">
+    <div class="img-hover-zoom">
+      <img src="./pexels-karolina-grabowska-4021775.jpg" class="card-img-top" alt="...">
+    </div>
+     <div class="card-body">
+       <h5 class="card-title">Dr.Talha</h5>
+       <p class="card-text"><span id="a1">Brian Surgen</span> play a very importent role in medical field there are different parts of brain depending on there functionality</p>
+       <button type="button" class="btn btn-outline-warning">More Info</button>
+     </div>
+   </div>
+   <div class="card" data-aos="fade-up">
+    <div class="img-hover-zoom">
+      <img src="./images/pexels-antoni-shkraba-5214994.jpg" class="card-img-top" alt="...">
+    </div>
+     <div class="card-body">
+       <h5 class="card-title">Dr.Usama</h5>
+       <p class="card-text"><span id="a1">Brian Surgen</span>  play a very importent role in medical field there are different parts of brain depending on there functionality.</p>
+       <button type="button" class="btn btn-outline-warning">More Info</button>
+     </div>
+   </div>
+   <div class="card" data-aos="fade-up">
+    <div class="img-hover-zoom" >
+      <img src="./images/pexels-chokniti-khongchum-3938022.jpg" class="card-img-top" alt="...">
+    </div>
+     <div class="card-body">
+       <h5 class="card-title">Dr.Mursal</h5>
+       <p class="card-text"><span id="a1">Brian Surgen</span>  play a very importent role in medical field there are different parts of brain depending on there functionality.</p>
+       <button type="button" class="btn btn-outline-warning">More Info</button>
+     </div>
+   </div>
+  </div>
+
+</div>
+<!-- card-3 -->
+
+
+<div class="contaner-2">
+  <div class="card-1">
+   <div class="card" data-aos="fade-down">
+    <div class="img-hover-zoom">
+      <img src="./pexels-pixabay-236380.jpg" class="card-img-top" alt="...">
+    </div>
+     <div class="card-body">
+       <h5 class="card-title">Dr.Zain</h5>
+       <p class="card-text"><span id="a2">Main Surgen</span> play a very importent role know for there surginity works they have a big hand which make a point for saving people.</p>
+       <button type="button" class="btn btn-outline-primary">More Info</button>
+     </div>
+   </div>
+   <div class="card" data-aos="fade-down">
+    <div class="img-hover-zoom">
+      <img src="./images/pexels-daniel-frank-287227.jpg" class="card-img-top" alt="...">
+    </div>
+     <div class="card-body">
+       <h5 class="card-title">Dr.Hanzla</h5>
+       <p class="card-text"><span id="a2">Main Surgen</span> play a very importent role know for there surginity works they have a big hand which make a point for saving people.</p>
+       <button type="button" class="btn btn-outline-primary">More Info</button>
+     </div>
+   </div>
+   <div class="card" data-aos="fade-down">
+    <div class="img-hover-zoom">
+      <img src="./images/pexels-karolina-grabowska-6627926.jpg" class="card-img-top" alt="...">
+    </div>
+     <div class="card-body">
+       <h5 class="card-title">Dr.Akrash</h5>
+       <p class="card-text"><span id="a2">Main Surgen</span> play a very importent role know for there surginity works they have a big hand which make a point for saving people.</p>
+       <button type="button" class="btn btn-outline-primary">More Info</button>
+     </div>
+   </div>
+  </div>
+
+</div>
+
+
+<!-- footer -->
+
+<footer class="footer" style="background-color: orange;">
+  <div class="main-footer sky-bg">
+     <div class="container pt-5 pb-4">
+        <div class="row">
+           <h4 class="footer-title text-center text-uppercase">find us</h4>
+           <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-12">
+                 <div class="footer-widget text-center">
+                    <ul class="widget-list">
+                       <li>
+                          <a href="tel:01622 222 222">
+                             <i class="fa fa-phone" aria-hidden="true">B</i>
+                             <div class="details">
+                                <h4 class="text-uppercase">Call us</h4>
+                                <p>01622 222 222</p>
+                             </div>
+                          </a>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-12">
+                 <div class="footer-widget text-center">
+                    <ul class="widget-list">
+                       <li>
+                          <a href="#">
+                             <i class="fa fa-map-marker" aria-hidden="true">F</i>
+                             <div class="details">
+                                <h4 class="text-uppercase">Address</h4>
+                                <p>E-98, third Floor <br>Industrial Area, Phase 8 <br>Fasilabad, Punjab</p>
+                             </div>
+                          </a>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-12">
+                 <div class="footer-widget text-center">
+                    <ul class="widget-list">
+                       <li>
+                          <a href="mailto:bookings@restaurant.com">
+                             <i class="fa fa-envelope-o" aria-hidden="true">D</i>
+                             <div class="details">
+                                <h4 class="text-uppercase">Email</h4>
+                                <p>dawood.official.offl gmail.com</p>
+                             </div>
+                          </a>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+  <div class="copyright-bar white-bg py-50">
+     <div class="container">
+        <ul class="social-media d-md-flex align-items-center justify-content-center">
+           <li >
+              <a href="#">
+                 <i class="fa fa-twitter" aria-hidden="true"><img src="./images/icons8-twitter.gif" alt=""></i>
+              </a>
+           </li>
+           <li>
+              <a href="#">
+                 <i class="fa fa-facebook" aria-hidden="true"><img src="./images/icons8-facebook-48.png" alt=""></i>
+              </a>
+           </li>
+           <li>
+              <a href="#">
+                 <i class="fa fa-instagram" aria-hidden="true"><img src="./images/icons8-instagram-48.png" alt=""></i>
+              </a>
+           </li>
+        </ul>
+        <p class="text-default text-center mb-0">© 2022 Copyright Medical Fields.</p>
+     </div>
+  </div>
+</footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    </div>
 </body>
 </html>
