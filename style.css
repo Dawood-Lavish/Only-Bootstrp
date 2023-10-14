@@ -250,7 +250,7 @@ text-decoration: underline solid;
   bottom: 0;
   left: 0;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   z-index: 0;
@@ -277,7 +277,7 @@ z-index: 99;
   100%{
 display: none;
 background: transparent;
-z-index: 0;
+/* z-index: 0; */
   }
 }
 .asso-heading h1
